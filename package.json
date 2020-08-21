@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "anvaad-js": "^1.4.0",
+    "anvaad-js": "^1.4.2",
     "anvaad-js-gursevak": "^1.4.1",
-    "gh-pages": "^2.1.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-scripts": "3.0.1",
     "websocket-driver": "^0.7.3"
+  },
+  "devDependencies": {
+    "eslint-plugin-react": "^7.20.6"
   },
   "homepage": "https://guca3.sikhutils.com",
   "scripts": {
@@ -19,9 +22,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": {
     "production": [
