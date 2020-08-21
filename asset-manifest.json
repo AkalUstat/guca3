@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d5e4022.chunk.css",
-    "main.js": "/static/js/main.ef0ce47e.chunk.js",
-    "main.js.map": "/static/js/main.ef0ce47e.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.527e19fd.chunk.js": "/static/js/2.527e19fd.chunk.js",
-    "static/js/2.527e19fd.chunk.js.map": "/static/js/2.527e19fd.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.5b83285056d0a3463967e9629de8bbf7.js": "/precache-manifest.5b83285056d0a3463967e9629de8bbf7.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.7d5e4022.chunk.css.map": "/static/css/main.7d5e4022.chunk.css.map",
-    "static/media/ConversionResult.css": "/static/media/OpenSatlujUni-Regular.2418662d.otf"
+    "main.css": "/guca3/static/css/main.ab017401.chunk.css",
+    "main.js": "/guca3/static/js/main.06f8bdf4.chunk.js",
+    "main.js.map": "/guca3/static/js/main.06f8bdf4.chunk.js.map",
+    "runtime~main.js": "/guca3/static/js/runtime~main.0f0fde5a.js",
+    "runtime~main.js.map": "/guca3/static/js/runtime~main.0f0fde5a.js.map",
+    "static/js/2.d2e7d55c.chunk.js": "/guca3/static/js/2.d2e7d55c.chunk.js",
+    "static/js/2.d2e7d55c.chunk.js.map": "/guca3/static/js/2.d2e7d55c.chunk.js.map",
+    "index.html": "/guca3/index.html",
+    "precache-manifest.c2ed49c3220209d873de805a08ea9c9d.js": "/guca3/precache-manifest.c2ed49c3220209d873de805a08ea9c9d.js",
+    "service-worker.js": "/guca3/service-worker.js",
+    "static/css/main.ab017401.chunk.css.map": "/guca3/static/css/main.ab017401.chunk.css.map",
+    "static/media/ConversionResult.css": "/guca3/static/media/OpenSatlujUni-Regular.2418662d.otf"
   }
 }
