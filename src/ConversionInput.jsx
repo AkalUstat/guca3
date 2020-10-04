@@ -1,24 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types'
+import React, { useContext } from 'react';
 import './ConversionInput.css'
+import { ConversionContext } from './lib/Context';
 
+const ConversionInput = () => {
+  const {handleInputChange} = useContext(ConversionContext)
+  return (
+    <div className="component-conversion-input">
+        <textarea onChange={handleInputChange}/>
+    </div>
+  );
 
-export default class ConversionInput extends React.PureComponent {
-  static propTypes = {
-    textChange: PropTypes.func
-  };
-
-  handleChange = event => {
-    this.props.textChange(event);
-  };
-
-  render() {
-    return (
-      <div class="col-md-6">
-        <div className="component-conversion-input">
-            <textarea onChange={this.handleChange}/>
-        </div>
-      </div>
-    );
-  }
 }
+
+export default ConversionInput

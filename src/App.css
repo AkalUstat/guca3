@@ -1,7 +1,14 @@
-.guca {
-  /* text-align: center; */
+.body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
+@media (max-width: 800px) {
+  .body {
+    flex-direction: column;
+  }
+}
 .guca-header {
   padding: 20px;
   background-color: #282c34;

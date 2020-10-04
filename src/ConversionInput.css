@@ -7,34 +7,22 @@
 }
 
 .component-conversion-input {
+  width: 40%;
+  padding: 5%;
 }
 
-.component-conversion-input > div {
-  margin: 0 0 0 0;
-}
-
+@media (max-width: 900px) {
+  .component-conversion-input {
+    width: 100%;
+  }
+} 
 .component-conversion-input textarea {
   background-color: #243447;
   color: #ffffff;
   font-size: 25px;
   font-family: 'GurbaniAkhar';
-  padding: 10px 8px;
   width: 100%;
+  padding: 5px 0px;
 }
 
-.chart-gurbani {
-  padding: 5px;
-  background-color: #243447;
-  color: #ffffff;
-  font-size: 35px;
-  font-family: "GurbaniAkhar";
-  /* font-family: 'Mukta Mahee', sans-serif; */
-}
 
-.chart-english {
-  padding: 5px;
-  background-color: #243447;
-  color: #ffffff;
-  font-size: 20px;
-  /* font-family: 'Mukta Mahee', sans-serif; */
-}

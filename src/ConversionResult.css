@@ -24,24 +24,35 @@
        url('fonts/OpenSatlujUni-Regular.otf') format('opentype')
 }
 
-.component-conversion-result-main-gurbani {
+.component-conversion-result {
+  margin: 0;
   padding: 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 25px;
   font-family: "OpenSatlujUni";
+  width: 40%;
+  overflow: scroll;
+}
+
+@media (max-width: 900px) {
+  .component-conversion-result {
+    width: 100%;
+  }
 }
 
 .component-conversion-result-main {
-  padding: 5px;
+  padding: 5px 0px;
   background-color: #243447;
-  color: #ffffff;
+    color: #ffffff;
   font-size: 20px;
   font-family: 'Mukta Mahee', sans-serif;
+  width: 50%;
+  height: 50%;
 }
 
 .component-conversion-result-main-hindi {
-  padding: 5px;
+  padding: 0px 5px;
   background-color: #243447;
   color: #ffffff;
   font-size: 20px;
@@ -64,3 +75,4 @@
   /* font-family: "GurbaniAkhar"; */
   font-family: 'Avenir', sans-serif;
 }
+

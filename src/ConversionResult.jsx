@@ -1,23 +1,19 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './ConversionResult.css'
+import { ConversionContext } from './lib/Context';
 
-export default class ConversionResult extends React.PureComponent {
-  render() {
-    return (
-      <div class="col-md-6">
-        <div className="component-conversion-result-main-gurbani">
-        {this.props.outputGurmukhi}
-        <div className="component-conversion-result-main-hindi-gurbani">
-        {this.props.outputDevnagri}
-        </div>
-        <div className="component-conversion-result-main">
-        {this.props.outputGurmukhi}
-        </div>
-        <div className="component-conversion-result-sub">
-        {this.props.outputEnglish}
-        </div>
-        </div>
+const ConversionResult = () => {
+  const {results} = useContext(ConversionContext)
+  return (
+    <div className="component-conversion-result">
+      <div className="component-conversion-result-main">
+      {results.unicode}
       </div>
-    );
-  }
+      <div className="component-conversion-result-main-hindi-gurbani">
+      {results.devnagri}
+      </div>
+    </div>
+  )
+
 }
+export default ConversionResult
